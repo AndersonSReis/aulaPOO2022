@@ -69,13 +69,13 @@ public class MathServlet extends HttpServlet {
             out.println("<h2>"+ n1 +" + "+ n2 +" = " + (n1+n2)+"</h2>");
             break;
                case "sub":
-                   out.println("<h2>"+ n1 +" + "+ n2 +" = " + (n1-n2)+"</h2>");
+                   out.println("<h2>"+ n1 +" - "+ n2 +" = " + (n1-n2)+"</h2>");
             break;
             case "div":
-                  out.println("<h2>"+ n1 +" + "+ n2 +" = " + (n1/n2)+"</h2>");
+                  out.println("<h2>"+ n1 +" / "+ n2 +" = " + (n1/n2)+"</h2>");
             break;
             case "mult":
-                   out.println("<h2>"+ n1 +" + "+ n2 +" = " + (n1*n2)+"</h2>");
+                   out.println("<h2>"+ n1 +" * "+ n2 +" = " + (n1*n2)+"</h2>");
             break;
             
                     
