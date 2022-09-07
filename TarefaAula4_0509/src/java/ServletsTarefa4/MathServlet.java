@@ -36,12 +36,20 @@ public class MathServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet MathServlet</title>");            
+            out.println("<title>Calculadora</title>");
+            
+            out.println("<style>");
+            out.println(" body {"
+                    + "background-color : #98FB98}");
+            out.println(" h4 {"
+                    + "font-family : cursive}");
+            out.println("</style>");
             out.println("</head>");
+            
             out.println("<body>");
             out.println("<h4><a href = 'index.html'>Voltar</a></h4>");
             
-            out.println("<h1>Servlet MathServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Calculadora </h1>");
             int n1 = 1, n2 = 1;
             String operador="";
             try{
@@ -57,9 +65,14 @@ public class MathServlet extends HttpServlet {
             }
             out.println( "<form>\n"+
         "Quantidade:"+    
-        "<input type='number' step='0.1' name='n1' value='"+n1+"'/>"+
-        "<input type='number' step='0.1' name='n2' value='"+n2+"'/>"+
-        "<input type='submit' name='somar value='='/>\n" +
+        
+                "+ <input type='radio' id='soma' name='op' value='soma'>" +   
+           "- <input type='radio' id='subtracao' name='op' value='sub'>" +
+            "/ <input type='radio' id='divisao' name='op' value='div'>" + 
+            "* <input type='radio' id='multiplcacao' name='op' value='mult'>" +
+                "Valor 1:<input type='number' name='n1' value='n1'/>"+
+            "Valor 2:<input type='number' name='n2' value='n2'/>"+
+              "<input type='submit' name='gerar-conta' value='Gerar'/>"+
                
         "</form>");
             

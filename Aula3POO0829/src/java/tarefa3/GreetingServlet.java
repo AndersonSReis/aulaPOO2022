@@ -39,6 +39,7 @@ public class GreetingServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title></title>");            
             out.println("</head>");
+          //  out.println("<img id= imagem src= imagem.jpg> ");// como chamar a imagem da folha de estilo            
             out.println("<body style= 'background-color: #B0E0E6 '>");
             int hora = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
                 
@@ -57,7 +58,7 @@ public class GreetingServlet extends HttpServlet {
                 }                    
            
             java.util.Date now  = new java.util.Date();
-            out.println("<h2>"+now+"S</h2>");
+            out.println("<h2>"+now+"</h2>");
             
             out.println("<h4> <a href = 'index.html'><i>Voltar</i></a></h4>");
             out.println("</body>");

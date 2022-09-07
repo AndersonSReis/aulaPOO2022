@@ -38,8 +38,7 @@ public class EuServlet extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet EuServlet</title>");            
             out.println("</head>");
-            out.println("<body style= 'background-color: #D3D3D3 '>");
-            
+            out.println("<body style= 'background-color: #D3D3D3 '>");            
             out.println("<h1>RA:1290481712040</h1>");
             out.println("<h2>Anderson da Silva Reis</h2>");
             out.println("<h2>19/10/1984</h2>");   

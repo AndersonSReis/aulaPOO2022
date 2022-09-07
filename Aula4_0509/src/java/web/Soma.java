@@ -61,15 +61,7 @@ public class Soma extends HttpServlet {
            
             
             out.println("<h2>"+ n1 +" + "+ n2 +" = " + (n1+n2)+"</h2>");
-            out.println("<table>");
-            for(int i=1; i<=10;i++){
-                out.println("<tr>");
-                out.println("<td>"+ n +"</td>");
-                out.println("<td> x "+ i +"</td>");
-                out.println("<td>"+ (n * i)+"</td>");
-                out.println("</tr>");
-            
-            }
+           
             out.println("</table>");
             out.println("</body>");
             out.println("</html>");
