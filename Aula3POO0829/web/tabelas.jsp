@@ -15,7 +15,7 @@
         <h1>Exemplos de tabelas</h1>
         <table border : 1px >
             <colgroup>
-                <col span="1" style="background-position: center; background-color: red">                
+                <col span="6" style="background-position: center; background-color: red">                
             </colgroup>
             <tr>
                 <th>Dom</th>
