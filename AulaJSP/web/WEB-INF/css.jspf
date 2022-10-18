@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<style>
+        body{
+           background-image: radial-gradient(circle at 69.86% 57.23%,
+               #ffff00 0, #f3ff00 12.5%, #c7ff00 25%, #98ff00 37.5%, 
+               #61f810 50%, #00e833 62.5%, #00db48 75%, #00cf59 87.5%,
+               #00c569 100%);            
+        }
+        h1{
+            color:red;
+            font-family: cursive;
+        }
+        h2{
+            color:saddlebrown;
+            font-family: cursive;
+        }
+    </style>

@@ -6,14 +6,13 @@
 
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@include file="WEB-INF/css.jspf" %>
+
+
 
 <!DOCTYPE html>
 <html>
-    <style>
-        body{
-           background-image: radial-gradient(circle at 69.86% 57.23%, #ffff00 0, #f3ff00 12.5%, #c7ff00 25%, #98ff00 37.5%, #61f810 50%, #00e833 62.5%, #00db48 75%, #00cf59 87.5%, #00c569 100%); 
-        }
-    </style>
+    
     <head>
         <%/*Usando um arquivo jspf que é uma seção do código 
             que o programador pretende executar dentro de uma página JSP.*/ %>
@@ -22,6 +21,13 @@
         <title>JSP Page</title>
     </head>
     <body >
+        <form action="forms.jsp">
+        <input type="number" name="n1" step="1" value="1">
+        <input type="number" name="n2" step="1" value="2">               
+        <input type="submit" name="res" value="calcular">
+        </form>
+        
+        <br><!-- comment -->
         
         
         <%/* usando fragmento código jsp que é processado no servidor, que neste 
