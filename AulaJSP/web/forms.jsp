@@ -29,5 +29,6 @@
     transparente usando como componente básico da JEE */ %>
         <c:if test="${param.n1>param.n2}"><h2>Valor 1 maior que Valor 2...</h2></c:if>
         <c:if test="${param.n1<param.n2}"><h2>Valor 2 maior que Valor 1</h2></c:if>
+        <a href="index.jsp"><h3>Voltar</h3></a>
     </body>
 </html>

@@ -6,6 +6,8 @@
 
 <%@page import="java.util.Date"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%/*Usando um arquivo jspf que é uma seção do código 
+            que o programador pretende executar dentro de uma página JSP.*/ %>
 <%@include file="WEB-INF/css.jspf" %>
 
 
@@ -22,9 +24,9 @@
     </head>
     <body >
         <form action="forms.jsp">
-        <input type="number" name="n1" step="1" value="1">
-        <input type="number" name="n2" step="1" value="2">               
-        <input type="submit" name="res" value="calcular">
+        Valor 1:<input type="number" name="n1" step="1" value="1">
+        Valor 2:<input type="number" name="n2" step="1" value="2">               
+                <input type="submit" name="res" value="calcular">
         </form>
         
         <br><!-- comment -->
